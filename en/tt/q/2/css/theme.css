@@ -1,0 +1,147 @@
+
+@font-face {
+    font-family: 'Poppins';
+    src: url('https://settlementsamerica.b-cdn.net/dist/fonts/Poppins-Bold.eot');
+    src: local('Poppins Bold'), local('Poppins-Bold'),
+        url('https://settlementsamerica.b-cdn.net/dist/fonts/Poppins-Bold.eot?#iefix') format('embedded-opentype'),
+        url('https://settlementsamerica.b-cdn.net/dist/fonts/Poppins-Bold.woff2') format('woff2'),
+        url('https://settlementsamerica.b-cdn.net/dist/fonts/Poppins-Bold.woff') format('woff'),
+        url('https://settlementsamerica.b-cdn.net/dist/fonts/Poppins-Bold.ttf') format('truetype'),
+        url('https://settlementsamerica.b-cdn.net/dist/fonts/Poppins-Bold.svg#Poppins-Bold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Poppins';
+    src: url('https://settlementsamerica.b-cdn.net/dist/fonts/Poppins-Regular.eot');
+    src: local('Poppins Regular'), local('Poppins-Regular'),
+        url('https://settlementsamerica.b-cdn.net/dist/fonts/Poppins-Regular.eot?#iefix') format('embedded-opentype'),
+        url('https://settlementsamerica.b-cdn.net/dist/fonts/Poppins-Regular.woff2') format('woff2'),
+        url('https://settlementsamerica.b-cdn.net/dist/fonts/Poppins-Regular.woff') format('woff'),
+        url('https://settlementsamerica.b-cdn.net/dist/fonts/Poppins-Regular.ttf') format('truetype'),
+        url('https://settlementsamerica.b-cdn.net/dist/fonts/Poppins-Regular.svg#Poppins-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+.bg-orange {
+  background: #f6c21d;
+}
+.text-orange {
+  color: #f6c21d;
+}
+.dark-overlay:after {
+  content: '';
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0,0,0,0.35);
+}
+.max-w-450 {
+  max-width: 450px;
+}
+.max-w-250 {
+  max-width: 250px;
+}
+.max-w-850 {
+  max-width: 850px;
+}
+label.error {
+  color: #f00;
+}
+@media screen and (max-width: 1024px) {
+  .container {
+    max-width: 650px;
+  }
+}
+
+.fade-enter-active,
+.fade-leave-active {
+  transition: all .5s;
+}
+
+.fade-enter-active {
+  transition-delay: .5s;
+}
+
+.fade-enter-from,
+.fade-leave-to {
+  opacity: 0;
+}
+
+.w-half {
+  width: 50%;
+}
+
+#content-wrapper.form-activated {
+  min-height: 500px;
+}
+
+.pri-button-width {
+  width: 100%;
+}
+
+.mb-12 {
+  margin-bottom: 3rem;
+}
+
+.popup{
+  display: none;
+  text-align: center;
+}
+
+.popup h2 {
+  font-size: 24px;
+  font-weight: bold;
+  height: 45vh;
+  display: flex;
+  align-items: center;
+  justify-content:center
+}
+
+.popup a {
+  text-align: center;
+  background-color: #3c9740;
+  border-radius: 3px;
+  border-color: transparent;
+  padding: 15px 0px;
+  margin: 10px 0;
+  color: white;
+  font-weight: bold;
+  font-size: 1.5rem;
+  text-decoration: none !important;
+  display: block;
+  cursor: pointer;
+  width: 100%;
+}
+
+.final-box{
+  padding:  0 40px;
+}
+
+.final-box h1{
+  font-size: 50px;
+  font-weight: bold;
+}
+
+.final-box h3 {
+  font-size: 24px;
+  font-weight: bold;
+}
+@media only screen and (max-width: 850px) {
+  .final-box h1 {
+    font-size: 32px;
+  }
+  .final-box {
+    padding: 0;
+  }
+}
