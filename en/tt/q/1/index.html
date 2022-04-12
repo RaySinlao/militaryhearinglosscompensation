@@ -33,7 +33,25 @@
             a.appendChild(r);
         })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
     </script>
-            
+
+    <!-- Meta Pixel Code -->
+    <script>
+      !function(f,b,e,v,n,t,s)
+      {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+      n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+      if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+      n.queue=[];t=b.createElement(e);t.async=!0;
+      t.src=v;s=b.getElementsByTagName(e)[0];
+      s.parentNode.insertBefore(t,s)}(window, document,'script',
+      'https://connect.facebook.net/en_US/fbevents.js');
+      fbq('init', '655007575586506');
+      fbq('track', 'PageView');
+    </script>
+    <noscript><img height="1" width="1" style="display:none"
+      src="https://www.facebook.com/tr?id=655007575586506&ev=PageView&noscript=1"
+    /></noscript>
+    <!-- End Meta Pixel Code -->
+
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -163,7 +181,7 @@
 
                 <div class="col-md-2 align-self-end phone-footer">
                     <a href="tel:+18883481463" class="footerButton pNumberLink" id="cta-footer">
-                        <img width="1" height="1" src="../../../../img/phone.svg" class="attachment-thumbnail size-thumbnail" alt="" loading="lazy" /> 
+                        <img width="1" height="1" src="../../../../img/phone.svg" class="attachment-thumbnail size-thumbnail" alt="" loading="lazy" />
                        <span class="pNumber">(888) 348-1463</span>
                    </a>
                 </div>
@@ -179,7 +197,7 @@
         </div>
     </footer>
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-    
+
     <script>
      $('a[href="tel:+18772970432"]').on('click', function(){
        fbq('track', 'Lead');
